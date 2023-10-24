@@ -21,8 +21,6 @@ This is an eCommerce web application developed as a project for a web developmen
 
 - **Product Selection:** Users can browse a range of products, select items, and manage product quantities in their shopping cart.
 
-//- **Secure Payment Confirmation:** Users can confirm payments, and the application displays a bill for the user to review.
-
 - **Input Validation:** The project incorporates input validation for user inputs to enhance security and prevent errors.
 
 - **Protection Against SQL Injection and HTML Injection:** Robust measures have been taken to safeguard the application against SQL injection and HTML injection attacks.
