@@ -62,5 +62,5 @@ This project prioritizes security and has been developed with the following secu
 
 Contributors
 
-[Mohammed Alsubaie] - https://github.com/MOHAMMAD-ALSUBAIE)https://github.com/MOHAMMAD-ALSUBAIE
+Mohammed Alsubaie - https://github.com/MOHAMMAD-ALSUBAIE)https://github.com/MOHAMMAD-ALSUBAIE
 
