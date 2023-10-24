@@ -1,6 +1,6 @@
 # eCommerce Web Application
 
-This is an eCommerce web application developed as a project for a web development course at [Your College Name]. The project allows users to create accounts, browse products, select items, manage quantities, confirm payments, and view their bills. It is designed to be secure, with built-in authentication and authorization features and protections against SQL injection and HTML injection.
+This is an eCommerce web application developed as a project for a web development course at [Jubail Industrial College]. The project allows users to create accounts, browse products, select items, manage quantities, confirm payments, and view their bills. It is designed to be secure, with built-in authentication and authorization features and protections against SQL injection and HTML injection.
 
 ## Technologies Used
 
