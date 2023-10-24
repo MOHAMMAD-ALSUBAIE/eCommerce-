@@ -41,7 +41,7 @@ git clone https://github.com/your-username/eCommerce-web-app.git
 4-Navigate to the project directory and start your web server.
 5-Access the application through your web browser.
 ````
-##Usage
+## Usage
 - **Create an account or log in to an existing one.
 
 - **Browse the available products and add them to your cart.
@@ -50,7 +50,7 @@ git clone https://github.com/your-username/eCommerce-web-app.git
 
 - **Confirm your payment to view your bill.
 
-##Security
+## Security
 
 This project prioritizes security and has been developed with the following security features:
 
