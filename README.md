@@ -42,7 +42,7 @@ git clone https://github.com/your-username/eCommerce-web-app.git
 
 Usage
 
-. Create an account or log in to an existing one.
+. **Create an account or log in to an existing one.
 . Browse the available products and add them to your cart.
 . Manage product quantities in the cart.
 . Confirm your payment to view your bill.
