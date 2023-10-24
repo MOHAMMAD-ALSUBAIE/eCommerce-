@@ -32,6 +32,7 @@ This is an eCommerce web application developed as a project for a web developmen
 1. Clone the repository to your local machine:
 
 ```bash
+
 git clone https://github.com/your-username/eCommerce-web-app.git
 
 1-Set up a web server environment with PHP and MySQL.
@@ -39,10 +40,10 @@ git clone https://github.com/your-username/eCommerce-web-app.git
 3-Configure the database connection settings in the PHP files.
 4-Navigate to the project directory and start your web server.
 5-Access the application through your web browser.
-
+````
 Usage
 
-. **Create an account or log in to an existing one.
+. Create an account or log in to an existing one.
 . Browse the available products and add them to your cart.
 . Manage product quantities in the cart.
 . Confirm your payment to view your bill.
@@ -58,3 +59,4 @@ This project prioritizes security and has been developed with the following secu
 Contributors
 
 [Mohammed Alsubaie] - https://github.com/MOHAMMAD-ALSUBAIE)https://github.com/MOHAMMAD-ALSUBAIE
+
