@@ -1,0 +1,379 @@
+
+html{
+    scroll-behavior: smooth;/* to make smooth scroll between the sections of the page*/
+
+}
+body{
+    height: 100vh;
+  
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    margin-top: 0;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+li {
+    margin: 0 3rem 0 0;
+    font-size: 20px;
+}
+
+nav li:hover {
+    /* when move mouse on itmes of navbar the color will change and cursor will change*/
+    color: rgba(88, 85, 85, 0.199);
+    cursor: pointer;
+}
+
+li a:hover {
+    /* when move mouse on itmes of navbar the color will change and cursor will change*/
+    color: rgba(88, 85, 85, 0.199);
+    cursor: pointer;
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+}
+
+
+nav>h1 {
+    margin-top: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-top: 40px;
+
+}
+
+nav>h1 {
+    margin-right: 10rem;
+}
+
+/* Classses */
+
+/* navBar class */
+.buttonNavbar{
+    height: 35px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 0.5rem;
+    border: none ;
+}
+
+.buttonNavbar:hover {
+    /* when move mouse on itmes of navbar the color will change and cursor will change*/
+    color: rgba(88, 85, 85, 0.199);
+    cursor: pointer;
+}
+/*  */
+.container {
+    margin: 0 19% 7% 19%;
+}
+
+
+/*  */
+.containerHeader {
+    margin: 0 15% 15% 13%;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+}
+
+.HeaderContent {
+    margin-top: 30px;
+    width: 40%;
+}
+
+/* to select the p tag insead section tag */
+.HeaderContent p {
+    color: gray;
+}
+
+.headerImage {
+    transition: transform 2s;
+}
+
+.headerImage:hover {
+    transform: rotate(-30deg);
+}
+/* the section products in home page */
+i{
+    position: relative;
+    top: 5px;
+    padding: 3px;
+}
+#scrollUp{
+    text-decoration: none;
+    color: black;
+    box-shadow: -3px -10px 10px rgba(0, 0, 0, 0.146), 2px 4px 15px rgba(0, 0, 0, 0.146);
+   cursor: pointer;
+   /* padding: 20px 1px 20px 1px; */
+   height: 30px;
+   width: 17px;
+   display: inline-block; 
+   margin-right: 10px;
+   border-radius: 10px;
+   border: 2px solid;
+}
+
+#scrollUpContainer{
+    /* display: flex; */
+   align-self: center;
+    /* display: inline-block;  */
+}
+/* products part */
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6rem;
+    justify-content: center;
+}
+#Products{
+    display: flex; 
+    flex-direction: row;
+}
+.product {
+    width: 20%;
+    box-shadow: -3px -10px 10px rgba(0, 0, 0, 0.146), 2px 4px 15px rgba(0, 0, 0, 0.146);
+    /*Multiple Shadows*/
+    /* box-shadow property : shdow in x-axis , shdow in y-axis , spread of the shdow, color of the shdow ,*/
+    border-radius: 2%;
+}
+
+.img-product {
+    text-align: center;
+}
+
+.img-product>img {
+    width: 70%;
+    padding-top: 10;
+}
+
+.details-image {
+    text-align: center;
+
+}
+
+.textValueOfProdcut {
+    display: none;
+}
+
+.productForm {
+    position: relative;
+    bottom: 5px;
+}
+
+.productForm form {
+    text-align: center;
+
+}
+
+.submitOfProduct {
+    /* make style for input of product*/
+    width: 40%;
+    height: 35px;
+    font-weight: bold;
+    border-radius: 0.3rem;
+    border-color: aliceblue;
+    border: none;
+    background-color: #2D46B9;
+    color: white;
+
+}
+
+.submitOfProduct:hover {
+    background-color: rgba(0, 15, 28, 0.301);
+    color: grey;
+}
+
+
+
+/* footer */
+
+footer p {
+    text-align: center;
+    font-weight: bolder;
+    padding-bottom: 20px;
+    margin-left: 6rem;
+}
+
+
+/* register page and login page */
+.formRigster {
+    margin: 0 30% 7% 35%;
+}
+
+.FormInputs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.FormInputs {
+    display: flex;
+    justify-content: center;
+}
+
+.h1SignUpSignIn {
+    text-align: center;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+    height: 40px;
+    width: 100%;
+    
+    border-radius: 0.4rem;
+    border-color: none;
+    box-sizing: border-box;/* the padding and margin will take from the size of element, so the element wil no increass in the size*/
+    padding: 2px 10px 2px 10px;
+}
+
+.inputs {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+}
+
+.labels {
+    width: 100%;
+}
+
+.buttonSubmit {
+    width: 15%;
+    height: 35px;
+    font-weight: bold;
+    border-radius: 0.3rem;/* for erver 1 rem = 16px and rem smailer to % */
+    border-color: aliceblue;
+    border: none;
+    background-color: #2D46B9;
+    color: white;/*color of text*/
+}
+/* I used it also in cart.php page */
+.ErrorMassage {
+    border-radius: 0.2rem;
+    background-color: red;
+    min-height: 50px; /*It prevents the used value of the height property from becoming smaller than the value specified for min-height  */
+    display: none;/*hidden*/
+    padding: 2px 10px 2px 10px;
+}
+/* I used it also in cart.php page */
+
+.ErrorMassageDisplay {
+    display: block;/* not hidden*/
+}
+
+.ErrorMassage p {
+    /* make style for text of massage error*/
+
+    font-size: 17px;
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+}
+
+
+
+
+/* cart */
+
+
+#phoneImageWithPT{ /*PT stand for prodctType*/
+display: flex;/* by default in elmment inseed the the div that has this id will be in row*/
+padding: 1%;
+gap: 10px;
+}   
+
+#prodctFiled{
+    text-align: left;
+} 
+
+.formOfCard{
+    margin-left: 5rem;
+
+}
+#BottomFormCart{
+    display: flex;
+    justify-content: right;
+    gap: 2%;
+    margin-top: 50px;
+}
+
+table{
+    width: 100%;
+}
+table,tr ,td{
+    border: 1px solid;
+    border-color: rgb(208, 207, 207);
+    border-collapse: collapse;
+    padding: 10px;
+}
+td{
+    text-align: center;
+   
+}
+button  a {
+    text-decoration: none;
+    color: white;
+}
+
+
+
+/* receipt page */
+#container{
+    box-shadow: -3px -10px 10px rgba(0, 0, 0, 0.146), 2px 4px 15px rgba(0, 0, 0, 0.146);
+    margin: 0 19% 150px 23%;/*top rigth bottom left*/
+    padding: 2%;/*space between contenet and border of elemment */
+  
+}
+#storeName{
+    font-weight: bolder;
+    font-size: 30px;
+    position: relative;
+    bottom: 30px;
+}
+#top{
+    display: flex;/* use to modifie the layout in the page*/
+ 
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.noBorder{
+    border: none;
+}
+#bottomOrder{
+    border-bottom: solid 1px;
+    color: gray;/* font color*/
+}
+
+span{
+    color: gray;
+}
+.rowFirst{
+    margin-top: 70px;
+    display: flex;
+    color: gray;
+    justify-content: space-between;
+}
+
+.rowSecond{
+    margin-top: 10px;
+    display: flex;
+    font-size: 1.5rem;/*16 px = 1 rem , */
+    justify-content: space-between;
+}
+#totalpricePargraph{
+    color: red;
+}
